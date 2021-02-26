@@ -1,3 +1,4 @@
 
-https://KaterynaLikhvar.github.io/rsschool-cv/cv  
-https://KaterynaLikhvar.github.io/rsschool-cv/index.html
+ 
+https://KaterynaLikhvar.github.io/rsschool-cv/
+https://KaterynaLikhvar.github.io/rsschool-cv/cv 
