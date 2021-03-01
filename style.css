@@ -4,3 +4,29 @@
   margin: 0;
   padding: 0;
 }
+#main-container {
+  
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 65%;
+}
+.photo img {
+  margin: 0 auto;
+  border-radius: 10px;
+}
