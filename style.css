@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-
+:root {
+  --header-text-color: #00cccc;
+}
 * {
   margin: 0;
   padding: 0;
+  
 }
 #main-container {
-  
   width: 1000px;
   height: auto;
   margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
 }
 .flex-container {
   display: flex;
@@ -29,4 +32,24 @@
 .photo img {
   margin: 0 auto;
   border-radius: 10px;
+}
+.personal-info {
+  margin: 20px 10px;   
+}
+.personal-info h2{
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--header-text-color);
+  color: #FFF;
+}
+.personal-info p {
+  text-align: center;
+  margin: 20px;
+}
+.personal-info ul {
+  list-style-type: circle;
+  margin: 20px 30px;
+}
+.personal-info ul li {
+  margin-top: 5px;
 }
