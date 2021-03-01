@@ -5,10 +5,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 #main-container {
-  width: 1000px;
-  height: auto;
+  width: 800px;
+  height: 100vh;
   margin: 0 auto;
   font-family: 'Quicksand', sans-serif;
 }
@@ -81,4 +82,19 @@
 .courses-list ul {
   margin-left: 20px;
   padding-top: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: var(--header-text-color);
+  color: #FFF;
+  font-size: 1.2rem;
+}
+.link i {
+  color: #FFF;
+  font-size: 1.5rem;
 }
